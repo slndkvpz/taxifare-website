@@ -12,8 +12,7 @@ h1 {
 }
 """
 
-if st.checkbox('Inject CSS'):
-    st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
+st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
 
 # Title and instructions
 st.title("TaxiFare")
