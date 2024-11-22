@@ -15,8 +15,8 @@ h1 {
 st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
 
 # Title and instructions
-st.title("TaxiFare")
-st.write("Please enter the details below to get the fare price.")
+st.title("🚕 TaxiFare 🚕")
+st.write("💸 Please enter the details below to get the fare price 💸")
 
 
 # Input fields
